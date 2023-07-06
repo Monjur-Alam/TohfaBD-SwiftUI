@@ -14,9 +14,8 @@ struct ContentView: View {
             Group{
                 if splashScreen {
                     SplashScreen()
-                }
-                else{
-                    HomeScreen()
+                } else {
+                    LogInScreen()
                 }
             }
             .onAppear {
