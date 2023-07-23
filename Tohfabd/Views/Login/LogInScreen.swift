@@ -13,7 +13,6 @@ struct LogInScreen: View {
     @State private var isEmailEmpty: Bool = false
     @State private var isPasswordEmpty: Bool = false
     @State private var isEmailValid: Bool = true
-    
     @StateObject private var loginViewModel = LoginViewModel()
     
     var body: some View {

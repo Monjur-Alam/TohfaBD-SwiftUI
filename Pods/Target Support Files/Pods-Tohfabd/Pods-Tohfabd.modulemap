@@ -1,0 +1,6 @@
+framework module Pods_Tohfabd {
+  umbrella header "Pods-Tohfabd-umbrella.h"
+
+  export *
+  module * { export * }
+}
